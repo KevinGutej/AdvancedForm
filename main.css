@@ -73,3 +73,11 @@ body {
   margin-bottom: 10px;
 }
 
+.sign-in-link {
+  font-size: small;
+  color: black;
+}
+.sign-in-link:hover {
+  color: blue;
+  transition: 1s;
+}
