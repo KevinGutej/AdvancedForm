@@ -12,7 +12,7 @@ html {
   height: 100%;
   width: 100%;
   background: rgb(2,0,36);
-    background: linear-gradient(60deg, #d2001a,#7462ff,#f48e21,#23d5ab);
+    background: linear-gradient(60deg, #3F0071,#FB2576,#332FD0,#0002A1);
     background-size: 600% 600%;
     animation: color 15s infinite linear;
 }
@@ -97,4 +97,22 @@ body {
 .sign-in-link:hover {
   color: blue;
   transition: 1s;
+}
+.contact-link {
+  text-align: right;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.contact-link:hover {
+  transition: 2s;
+  color: red;
+  cursor: pointer;
+}
+.nav {
+  background-color: white;
+}
+.main-contact {
+  height: 100px;
+  width: 100px;
+  background-color: white;
 }
